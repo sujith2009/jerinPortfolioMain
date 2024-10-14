@@ -1,0 +1,51 @@
+.navbarBackground {
+  box-shadow: 0 3px 6px rgba(99, 97, 97, 0.16),
+    0 3px 6px rgba(109, 107, 107, 0.23);
+  z-index: 1;
+}
+
+.listItems {
+  color: "#FABC3F" !important;
+  cursor: pointer;
+}
+.listItems:hover {
+  color: #fff !important;
+  border-bottom: 3px solid #fff;
+}
+
+.navbar-toggler {
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important; /* Remove focus box-shadow */
+}
+
+.navbar-toggler:active {
+  border: none !important; /* Ensure no border on active */
+}
+
+@media screen and (max-width: 768px) {
+  .listItems {
+    text-align: center !important;
+    margin-top: 10px;
+  }
+  .listItems:hover {
+    color: #fff;
+    border-bottom: none !important;
+  }
+}
+
+@media screen and (max-width: 997px) {
+  .listItems {
+    text-align: center !important;
+    margin-top: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  .listItems:hover {
+    color: #fff;
+    border-bottom: none !important;
+  }
+}
