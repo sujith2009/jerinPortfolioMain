@@ -30,11 +30,11 @@ const Contact = () => {
         .then(
           () => {
             console.log("SUCCESS!");
-            setInputValue({
-              from_name: "",
-              from_email: "",
-              message: "",
-            });
+            // setInputValue({
+            //   from_name: "",
+            //   from_email: "",
+            //   message: "",
+            // });
 
             const toastElement = toastRef.current;
             const toast = new bootstrap.Toast(toastElement, {
