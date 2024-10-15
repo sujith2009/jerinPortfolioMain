@@ -15,7 +15,9 @@ const Home = () => {
   return (
     <div>
       <section className="bg-dark" id="home">
-        <div className="container-fluid w-100 h-100">
+        <div
+          className={`container-fluid w-100 h-100 ${HomeCss.homeResponsive}`}
+        >
           <div className="row vh-100 d-flex justify-content-center align-items-center">
             <div className="col-md-6 d-flex flex-column align-items-center">
               <div className="d-flex flex-column align-items-start">

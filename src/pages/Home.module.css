@@ -7,5 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
- 
+  .homeResponsive {
+    padding-top: 27px !important;
+  }
 }

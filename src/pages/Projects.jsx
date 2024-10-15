@@ -59,6 +59,7 @@ const Projects = () => {
                 </div>
               </div>
             ))}
+            <p className="text-white">"Future Projects"</p>
           </div>
         </div>
       </section>
